@@ -43,6 +43,7 @@ public final class MainActivity extends AppCompatActivity {
 
         final Button startAPICall = findViewById(R.id.startAPICALL);
         startAPICall.setOnClickListener(new View.OnClickListener() {
+            
             @Override
             public void onClick(final View v) {
                 Log.d(TAG, "Start API Button Clicked");
